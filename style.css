@@ -32,6 +32,7 @@ aside{
 
 :root{
     font-size: 62.5%;
+    --default-border: 0.1rem solid rgba(0, 0, 0, 0.15);
 }
 
 aside h1{
@@ -93,4 +94,20 @@ main footer a{
     display: block;
     text-align: center;
     color: #000;
+}
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    display: block;
+
+}
+main form input{
+    width: 48.9rem;
+    height: 5.5rem;
+    
+    background-color: #fff;
+    border: var(--default-border);
+    border-radius: 1.2rem;
 }
